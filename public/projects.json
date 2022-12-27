@@ -1,0 +1,20 @@
+[
+  {
+    "name": "The Weather Window",
+    "live": "https://inspiring-douhua-d09af5.netlify.app/",
+    "git": "https://github.com/npereznyc/Project-2-Weather-App",
+    "image": "./images/Weather Window.png"
+  },
+  {
+    "name": "Yoga Pose Memory Matcher",
+    "live": "https://npereznyc.github.io/memory-matcher-game/",
+    "git": "https://github.com/npereznyc/memory-matcher-game",
+    "image": "./images/Yoga Pose Memory Matcher.png"
+  },
+  {
+    "name": "Mushroom Tamagotchi",
+    "live": "https://npereznyc.github.io/Mushroom-Tamagotchi/",
+    "git": "https://github.com/npereznyc/Mushroom-Tamagotchi",
+    "image": "./images/Mushroom Tamagotchi.png"
+  }
+]
