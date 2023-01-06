@@ -1,12 +1,15 @@
 
 .App {
   text-align: center;
+  font-family: 'EB Garamond', serif;
 }
 
-.headshot {
+
+
+/* .headshot {
   height: 200px;
   width: 200px;
-}
+} */
 
 .project-image {
   height: 200px;

@@ -1,0 +1,121 @@
+.AboutContainer {
+    background-color: white;
+    /* height: 100vh; */
+    width: 100vw;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    text-align: center;
+    color: #3b0064;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: .75fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+    "headshot bio"
+    "skills";
+}
+
+.headshot {
+    background-color: aqua;
+    display: grid;
+    grid-area: headshot; 
+    height: 50%;
+    width: 50%;
+    border-radius: 100px;
+  }
+
+.AboutBio {
+    display: grid;
+    background-color: blue;
+    grid-area: bio; 
+    font-size: 2.25vw;
+    padding-bottom: 25px;
+}
+
+.SkillsSection {
+    display: grid;
+    background-color: blueviolet;
+    /* flex-direction: column; */
+    grid-area: skills;
+    color: #2a2d2d;
+    padding-top: 25px;
+}
+
+.SkillsHeading {
+    font-size: 2vw;
+}
+
+.SkillsLogo {
+    height: 75px;
+    width: 75px;
+    padding: 10px;
+    opacity: 1;
+}
+
+.MiscHeading {
+    color: #2a2d2d;
+    font-size: 2vw;
+    padding-top: 35px;
+}
+
+.facts {
+    font-size: 1.4vw;
+    padding: 2.5px;
+}
+
+#netlify {
+    height: 75px;
+}
+
+.bio {
+    margin: auto 10%;
+}
+
+.skills {
+    margin: auto 10%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .AboutContainer {
+        height: 100vh;
+        padding-top: 0px;
+        padding-bottom: 25px;
+        margin-bottom: 15px;
+    }
+
+    .AboutContent {
+        width: 90%;
+    }
+
+    .AboutBio {
+        font-size: 1.5em;
+        padding-bottom: 0px;
+    }
+
+    .SkillsHeading {
+        font-size: 1.25em;
+    }
+
+   .SkillsLogo {
+    height: 60px;
+    width: 60px;
+   }
+
+   .MiscHeading {
+        color: #2a2d2d;
+        font-size: 1.25em;
+        padding-top: 25px;
+    }
+
+    .facts {
+        font-size: 1em;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+}

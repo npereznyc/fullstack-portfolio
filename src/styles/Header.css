@@ -1,0 +1,39 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand:wght@300&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+.bg-myColor {
+  /* background-color: #be96df; */
+  background: linear-gradient(-45deg, #4b197a 0%, #732aa7 13%, #9327c9 25%, #9928cd 38%, #8628c9 50%, #8c5bb2 62%, #5c00a7 75%, #7f5cbb 87%, #4864b2 100%);
+  background-size: 400% 400%;
+  animation: animate 7.5s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+#homelink {
+  /* font-family: 'Quicksand', sans-serif; */
+  /* font-family: 'Shadows Into Light Two', cursive; */
+  font-family: 'Kalam', cursive;
+  color: rgb(255, 255, 255)
+}
+
+#NavLink {
+  color: rgb(255, 255, 255);
+}
+
+#NavLink:hover {
+  color: #807d85;
+}

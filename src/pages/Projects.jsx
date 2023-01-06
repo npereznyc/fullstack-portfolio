@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from 'react-scroll'
+import "../styles/Projects.css"
+
 
 
 function Projects(props) {
@@ -25,8 +27,8 @@ function Projects(props) {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
-    return projects.map((project) => (
-      <div className={"section" + (props.dark ? "section-dark" : "")}>
+    return projects.map((project, index) => (
+      <div className={"section" + (props.dark ? "section-dark" : "")} key={index}>
         <div className="section-content" id={props.id}>
           <h1>{project.name}</h1>
           <img className="project-image" src={project.image} />
