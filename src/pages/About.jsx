@@ -38,11 +38,11 @@ function About(props) {
 
   const loaded = () => (
     <div className="AboutContainer">
-      <div>
-        <div className="headshot"><img className="headshot" src={about.headshot} /></div>
+      
+        <img className="headshot" src={about.headshot} />
         
         <p className="AboutBio">{about.bio}</p>
-      </div>
+      
       
       <div className="SkillsSection">
         <div className="Languages">
